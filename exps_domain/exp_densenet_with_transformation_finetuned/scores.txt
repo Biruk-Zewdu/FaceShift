@@ -1,0 +1,36 @@
+[INFO] :: 2024-11-29 15:49:09 :: Namespace(batch_size=128, max_img_per_cls=500, nDataLoaderThread=5, test_interval=1, max_epoch=14, trainfunc='arcface', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.75, weight_decay=0, margin=0.1, scale=16, alpha=1.0, beta=1.0, nPerClass=1, nClasses=2882, initial_model='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/exps_domain/exp_densenet_with_transformation_baseline/epoch0006.model', save_path='exps_domain/exp_densenet_with_transformation_finetuned', train_path='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/data/ee488_24_data/train2', train_ext='jpg', test_path='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/data/ee488_24_data/val', test_list='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/data/ee488_24_data/val_pairs.csv', model='DenseNet', nOut=512, eval=False, output='', gpu=2, use_domain_adaptation=False)
+[INFO] :: 2024-11-29 15:49:09 :: Epoch 0001 started with LR 0.00100 
+[INFO] :: 2024-11-29 15:52:36 :: Namespace(batch_size=128, max_img_per_cls=500, nDataLoaderThread=5, test_interval=1, max_epoch=14, trainfunc='arcface', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.75, weight_decay=0, margin=0.1, scale=16, alpha=1.0, beta=1.0, nPerClass=1, nClasses=2882, initial_model='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/exps_domain/exp_densenet_with_transformation_baseline/epoch0006.model', save_path='exps_domain/exp_densenet_with_transformation_finetuned', train_path='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/data/ee488_24_data/train2', train_ext='jpg', test_path='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/data/ee488_24_data/val', test_list='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/data/ee488_24_data/val_pairs.csv', model='DenseNet', nOut=512, eval=False, output='', gpu=2, use_domain_adaptation=False)
+[INFO] :: 2024-11-29 15:52:36 :: Epoch 0001 started with LR 0.00100 
+[INFO] :: 2024-11-29 15:52:52 :: Namespace(batch_size=128, max_img_per_cls=500, nDataLoaderThread=5, test_interval=1, max_epoch=14, trainfunc='arcface', optimizer='adam', scheduler='steplr', lr=0.001, lr_decay=0.75, weight_decay=0, margin=0.1, scale=16, alpha=1.0, beta=1.0, nPerClass=1, nClasses=2882, initial_model='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/exps_domain/exp_densenet_with_transformation_baseline/epoch0006.model', save_path='exps_domain/exp_densenet_with_transformation_finetuned', train_path='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/data/ee488_24_data/train2', train_ext='jpg', test_path='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/data/ee488_24_data/val', test_list='/home/gkim/Desktop/biruk/FaceShift/FaceShiftV2/ee488_24_face/data/ee488_24_data/val_pairs.csv', model='DenseNet', nOut=512, eval=False, output='', gpu=3, use_domain_adaptation=False)
+[INFO] :: 2024-11-29 15:52:52 :: Epoch 0001 started with LR 0.00100 
+[INFO] :: 2024-11-29 15:55:40 :: Epoch 0001 completed with TLOSS 7.65838
+[INFO] :: 2024-11-29 15:56:23 :: Epoch 0001, Val EER 17.05%
+[INFO] :: 2024-11-29 15:56:23 :: Epoch 0002 started with LR 0.00075 
+[INFO] :: 2024-11-29 15:59:08 :: Epoch 0002 completed with TLOSS 5.71919
+[INFO] :: 2024-11-29 15:59:45 :: Epoch 0002, Val EER 11.14%
+[INFO] :: 2024-11-29 15:59:46 :: Epoch 0003 started with LR 0.00056 
+[INFO] :: 2024-11-29 16:02:29 :: Epoch 0003 completed with TLOSS 4.64411
+[INFO] :: 2024-11-29 16:03:07 :: Epoch 0003, Val EER 8.86%
+[INFO] :: 2024-11-29 16:03:07 :: Epoch 0004 started with LR 0.00042 
+[INFO] :: 2024-11-29 16:05:50 :: Epoch 0004 completed with TLOSS 4.07760
+[INFO] :: 2024-11-29 16:06:30 :: Epoch 0004, Val EER 8.62%
+[INFO] :: 2024-11-29 16:06:31 :: Epoch 0005 started with LR 0.00032 
+[INFO] :: 2024-11-29 16:09:14 :: Epoch 0005 completed with TLOSS 3.75181
+[INFO] :: 2024-11-29 16:09:57 :: Epoch 0005, Val EER 8.14%
+[INFO] :: 2024-11-29 16:09:57 :: Epoch 0006 started with LR 0.00024 
+[INFO] :: 2024-11-29 16:12:38 :: Epoch 0006 completed with TLOSS 3.53972
+[INFO] :: 2024-11-29 16:13:12 :: Epoch 0006, Val EER 8.07%
+[INFO] :: 2024-11-29 16:13:13 :: Epoch 0007 started with LR 0.00018 
+[INFO] :: 2024-11-29 16:15:56 :: Epoch 0007 completed with TLOSS 3.40415
+[INFO] :: 2024-11-29 16:16:35 :: Epoch 0007, Val EER 7.96%
+[INFO] :: 2024-11-29 16:16:35 :: Epoch 0008 started with LR 0.00013 
+[INFO] :: 2024-11-29 16:19:20 :: Epoch 0008 completed with TLOSS 3.29585
+[INFO] :: 2024-11-29 16:20:03 :: Epoch 0008, Val EER 7.83%
+[INFO] :: 2024-11-29 16:20:03 :: Epoch 0009 started with LR 0.00010 
+[INFO] :: 2024-11-29 16:22:48 :: Epoch 0009 completed with TLOSS 3.22568
+[INFO] :: 2024-11-29 16:23:26 :: Epoch 0009, Val EER 8.07%
+[INFO] :: 2024-11-29 16:23:26 :: Epoch 0010 started with LR 0.00008 
+[INFO] :: 2024-11-29 16:26:10 :: Epoch 0010 completed with TLOSS 3.17178
+[INFO] :: 2024-11-29 16:26:50 :: Epoch 0010, Val EER 8.01%
+[INFO] :: 2024-11-29 16:26:50 :: Epoch 0011 started with LR 0.00006 
